@@ -35,7 +35,7 @@ struct NowPlayingView: View {
                     ScrollView(.vertical) {
                                LazyVGrid(columns: columns, alignment: .center) {
                                    ForEach(movies, id: \.id) { movie in
-                                    NavigationLink(destination: MovieDetailView(id: movie.id!)){
+                                    NavigationLink(destination:MovieDetailView(id: movie.id!).environmentObject(stateController)){
                                         MovieeCover(movie: movie)
                                             .frame(width: geo.size.width * 0.45)
                                             .cornerRadius(15)
