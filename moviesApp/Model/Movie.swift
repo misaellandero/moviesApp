@@ -7,13 +7,14 @@
 
 import Foundation
 
-struct Movie: Codable, Equatable {
-    let posterPath: String?
+ 
+struct Movie: Codable, Equatable, Identifiable {
+    //let posterPath: String?
     let id: Int?
     let title: String?
-    let voteAverage: Double?
-    let releaseDate: String?
-
+    //let voteAverage: Double?
+    //let releaseDate: String?
+/*
     enum CodingKeys: String, CodingKey {
         case posterPath = "poster_path"
         case id
@@ -33,6 +34,6 @@ struct Movie: Codable, Equatable {
         formatter.dateStyle = .medium
         
         return formatter.string(from: date ?? Date())
-    }
+    }*/
     
 }

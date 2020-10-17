@@ -14,10 +14,58 @@
             filePath = "moviesApp/Controllers/StateController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "reloadMovies(item:)"
-            landmarkType = "7">
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "StateController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61024BF3-B221-4498-B78B-6E77AA92C6D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "moviesApp/Controllers/StateController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "StateController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "61024BF3-B221-4498-B78B-6E77AA92C6D1 - 61e457060787087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of moviesApp.StateController.shouldLoadMoreData(item: Swift.Optional&lt;moviesApp.Movie&gt;) -&gt; Swift.Bool"
+                  moduleName = "moviesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/Downloads/MovieMVVM-main/moviesApp/Controllers/StateController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "61024BF3-B221-4498-B78B-6E77AA92C6D1 - d0bf979203dd681d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "moviesApp.StateController.shouldLoadMoreData(item: Swift.Optional&lt;moviesApp.Movie&gt;) -&gt; Swift.Bool"
+                  moduleName = "moviesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/Downloads/MovieMVVM-main/moviesApp/Controllers/StateController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "157">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

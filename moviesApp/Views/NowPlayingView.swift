@@ -13,7 +13,8 @@ struct NowPlayingView: View {
     var body: some View {
         Content(movies: $stateController.movies)
             .onAppear{
-                stateController.reloadMovies()
+                stateController.fetchNowPlaying()
+                //stateController.reloadMovies()
             }
     }
 }
@@ -35,14 +36,15 @@ struct NowPlayingView: View {
                     ScrollView(.vertical) {
                                LazyVGrid(columns: columns, alignment: .center) {
                                    ForEach(movies, id: \.id) { movie in
-                                    NavigationLink(destination:MovieDetailView(id: movie.id!).environmentObject(stateController)){
+                                    Text(movie.title!)
+                                    /*NavigationLink(destination:MovieDetailView(id: movie.id!)){
                                         MovieeCover(movie: movie)
                                             .frame(width: geo.size.width * 0.45)
                                             .cornerRadius(15)
                                             .onAppear{
                                                 stateController.reloadMovies(item: movie)
                                             }
-                                    }
+                                    }*/
                                     
                                    }
                                }
@@ -64,7 +66,7 @@ struct NowPlayingView: View {
         var body: some View {
             ZStack{
                 
-                URLImageView(ulr: movie.posterPath ?? "No image")
+                //URLImageView(ulr: movie.posterPath ?? "No image")
                    
                 
                 VStack{
@@ -73,7 +75,7 @@ struct NowPlayingView: View {
                         .frame( height: 50)
                 }
                 
-                VStack{
+                /*VStack{
                     Spacer()
                     VStack{
                         HStack{
@@ -94,7 +96,7 @@ struct NowPlayingView: View {
                     .foregroundColor(.white)
                     
                     
-                }
+                }*/
             }
         }
     }

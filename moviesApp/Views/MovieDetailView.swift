@@ -6,13 +6,12 @@
 //
 
 import SwiftUI
-
+/*
 struct MovieDetailView: View {
     
     @EnvironmentObject private var stateController: StateController
     @State var id : Int
-  
-    
+ 
     var body: some View {
         DetailMovieContent(movie: $stateController.movie)
             .onAppear{
@@ -79,7 +78,7 @@ struct DetailRow: View {
 }
     
 
-
+*/
  
 
  
